@@ -6,6 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import org.springframework.boot.ApplicationArguments;
 import sg.edu.nus.iss.day13wkshp.services.DatabaseService;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import java.io.File;
 
 @SpringBootApplication
 public class Day13wkshpApplication implements ApplicationRunner {
@@ -34,11 +37,4 @@ public class Day13wkshpApplication implements ApplicationRunner {
 		}
 	}
 
-	public boolean save() {
-		return false;
-	}
-
-	public void read(String fileId) {
-
-	}
 }
